@@ -1,31 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     width : 70%;
-    margin: 0 auto;
+    margin: auto auto;
   }
-  header{
-    border-bottom-style: double;
+  main h1{font-family: 'Ultra', serif;
+  
   }
-  main h1 span{
+  main p{
     font-size: 15px;
-    color: grey;
-    padding-top: 1px;
+    color: rgb(180, 176, 176);
+    margin-top: -15px;
   }
-  header div {
-    display: inline-block;
-    margin: 0.15px ;
+  header div p{
+    font-family: 'Damion', cursive;
+    font-size: 20px;
+   }
+   header div span{
+     color: rgb(201, 193, 193);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 10px;
+   
    }
    #print{
      float: right;
      color: gray;
-   }
-   h1{
-     font-family:'Anton', sans-serif;}
-   .top{
-    padding-top: 12px;
-   }
-   h4 {
-     font-family:Cursive ;
-     font-size: 30px;
+     margin-top: -50px;
+     margin-right: 170px;
    }
   main section p{
     text-indent: 30px;
@@ -37,10 +40,10 @@ body {
      display:inline-block ;
    }
 
-   header ul{
-       float:right ;
-       margin-left: 10px;
-       margin-top: 5px;
+   header div ul{
+       float:right;
+       margin-top: -75px;
+       margin-right: 200px;
    }
 
 
@@ -50,37 +53,26 @@ body {
       border: none;
       color: white;
       padding: 15px 32px;
+      margin-top: -60px;
+      margin-left:700px ;
       text-align: center;
       text-decoration: none;
       font-size: 16px;
-      margin: 4px 2px;
       cursor: pointer;
-      float: right;
+      float: left;
     }
-    
+    #vene{
+      color: rgb(87, 85, 85);
+    }
    #pizza{
        width: 20px;
+      margin-bottom: 100px;
    }
-   h2 {
-    
-       font-size: 15px;
-       color: grey;
-   }
-    #list{
-        background:url('img/list-bg.png');
-    }
 
-    main div from label {
-        display: block;
-    }
-
-    footer img:first-child{
-        display: inline-block;
+    footer div{
+    clear: both;
     }
     footer div{
-clear: both;
-    }
-    footer div form{
      float: left;
     }
     article{
@@ -103,12 +95,30 @@ clear: both;
  footer p{
    clear: both;
  }
- footer div form{
-   float: right;
- }
  header div p img{
    float: left;
- }
-.background{
-  background-image: url("kkk");
+
+}
+.list1{
+  float: left;
+  position: absolute;
+  top: 45px;
+  left: 50px;
+  list-style-type: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(114, 110, 110);
+  font-size: 15px;
+}
+.list2{
+  float: left;
+  position:absolute;
+  top: 45px;
+  left: 400px;
+  list-style-type: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(114, 110, 110);
+  font-size: 15px;
+}
+.background-list{  position: relative;
+
 }
