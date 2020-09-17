@@ -1,0 +1,62 @@
+body {
+    width : 70%;
+    margin: 0 auto;
+  }
+  
+  header div {
+    display: inline-block;
+    margin: 10px ;
+   
+   }
+   h4 {
+     font-family:Cursive ;
+     font-size: 17px;
+   }
+  
+   h5 {
+     font-family: ;
+     font: size 13px;;
+     color: grey;
+     margin-left: 8px;
+   }
+   
+   header ul li{
+     display:inline-block ;
+   }
+
+   header ul{
+       float:right ;
+       margin-left: 10px;
+       margin-top: 5px;
+   }
+
+   header ul:last-child{
+  margin-left: 5px ;
+   }
+
+  
+    
+   #pizza{
+       width: 20px;
+   }
+   h2 {
+       font-family: ;
+       font-size: 15px;
+       color: grey;
+   }
+    #list{
+        background:url('img/list-bg.png');
+    }
+
+    .list1, .list2{
+        width: 300px;
+        float: left;
+    }
+
+    main div from label {
+        display: block;
+    }
+
+    footer img:first-child{
+        display: inline-block;
+    }
