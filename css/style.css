@@ -2,23 +2,36 @@ body {
     width : 70%;
     margin: 0 auto;
   }
-  
+  header{
+    border-bottom-style: double;
+  }
+  main h1 span{
+    font-size: 15px;
+    color: grey;
+    padding-top: 1px;
+  }
   header div {
     display: inline-block;
-    margin: 10px ;
-   
+    margin: 0.15px ;
+   }
+   #print{
+     float: right;
+     color: gray;
+   }
+   h1{
+     font-family:'Anton', sans-serif;}
+   .top{
+    padding-top: 12px;
    }
    h4 {
      font-family:Cursive ;
-     font-size: 17px;
+     font-size: 30px;
    }
-  
-   h5 {
-     font-family: ;
-     font: size 13px;;
-     color: grey;
-     margin-left: 8px;
-   }
+  main section p{
+    text-indent: 30px;
+    color: rgb(107, 103, 103);
+    width: 950px;
+  }
    
    header ul li{
      display:inline-block ;
@@ -30,27 +43,31 @@ body {
        margin-top: 5px;
    }
 
-   header ul:last-child{
-  margin-left: 5px ;
-   }
 
-  
+  .button{
+    
+      background-color: rgb(153, 42, 42);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      float: right;
+    }
     
    #pizza{
        width: 20px;
    }
    h2 {
-       font-family: ;
+    
        font-size: 15px;
        color: grey;
    }
     #list{
         background:url('img/list-bg.png');
-    }
-
-    .list1, .list2{
-        width: 300px;
-        float: left;
     }
 
     main div from label {
@@ -60,3 +77,38 @@ body {
     footer img:first-child{
         display: inline-block;
     }
+    footer div{
+clear: both;
+    }
+    footer div form{
+     float: left;
+    }
+    article{
+      color: gray;
+      padding-right:400px;
+      padding-left:400px;
+
+    }
+  
+    #footer{ padding-left: 50%;
+      padding-right: 50%;
+
+    }
+    #end{
+      text-indent: 30px;
+    }
+ footer #left-image{
+   float:left;
+ }
+ footer p{
+   clear: both;
+ }
+ footer div form{
+   float: right;
+ }
+ header div p img{
+   float: left;
+ }
+.background{
+  background-image: url("kkk");
+}
