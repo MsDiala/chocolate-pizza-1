@@ -15,8 +15,9 @@ body {
     margin-top: -15px;
   }
   header div p{
-    font-family: 'Damion', cursive;
-    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    font-weight:bolder;
    }
    header div span{
      color: rgb(201, 193, 193);
