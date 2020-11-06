@@ -1,3 +1,2 @@
-# chocolate-pizza
 
 new repo 
